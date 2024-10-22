@@ -44,23 +44,7 @@
   color: #0d3049;
   height: 5px;
 }
-/* Style for the tooltip box */
-.tooltip-box {
-  display: none; /* Hidden by default */
-  position: fixed; /* Fixed position in the top right corner */
-  top: 10px;
-  right: 10px;
-  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
-  color: white;
-  padding: 10px;
-  border-radius: 5px;
-  z-index: 9999; /* Ensure it stays on top */
-}
 
-/* Show the tooltip box on hover */
-#side_bar_image:hover + .tooltip-box {
-  display: block;
-}
 #hoverText {
     position: fixed;
     top: 10px;
