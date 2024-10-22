@@ -1,46 +1,63 @@
-#cv_side_bar{
-    background-color:#0D3049;
-    color: white;
+#cv_side_bar {
+  background-color: #0d3049;
+  color: white;
 }
-#cv_body{
-    color: gray;
+#cv_body {
+  color: gray;
 }
-#side_bar_image{
-    height: 120px;
-    width: 130px;
-    border:3px solid white;
+#side_bar_image {
+  height: 120px;
+  width: 130px;
+  border: 3px solid white;
 }
 
-.horizontal_rule{
-    width : 100%;
-    color:white;
-    height: 5px;
+.horizontal_rule {
+  width: 100%;
+  color: white;
+  height: 5px;
 }
-.fa-solid{
-    font-size: 15px;
+.fa-solid {
+  font-size: 15px;
 }
-#cv_side_bar span{
-    font-size: 15px;
+#cv_side_bar span {
+  font-size: 15px;
 }
-#cv_banner{
-    height: 210px;
+#cv_banner {
+  height: 210px;
 }
-#first_name{
-    color:gray;
+#first_name {
+  color: gray;
+}
+#last_name {
+  color: #0d3049;
+}
+#first_name,
+#last_name {
+  font-weight: 900;
+}
+#job_title {
+  color: gray;
+  font-weight: 500;
+}
+.horizontal_rule_body {
+  width: 100%;
+  color: #0d3049;
+  height: 5px;
+}
+/* Style for the tooltip box */
+.tooltip-box {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed position in the top right corner */
+  top: 10px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 9999; /* Ensure it stays on top */
+}
 
-}
-#last_name{
-    color:#0D3049;
-}
-#first_name, #last_name{
-    font-weight: 900;
-}
-#job_title{
-    color: gray;
-    font-weight: 500;
-}
-.horizontal_rule_body{
-    width : 100%;
-    color:#0D3049;
-    height: 5px;
+/* Show the tooltip box on hover */
+#side_bar_image:hover + .tooltip-box {
+  display: block;
 }
