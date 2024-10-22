@@ -1,0 +1,46 @@
+#cv_side_bar{
+    background-color:#0D3049;
+    color: white;
+}
+#cv_body{
+    color: gray;
+}
+#side_bar_image{
+    height: 120px;
+    width: 130px;
+    border:3px solid white;
+}
+
+.horizontal_rule{
+    width : 100%;
+    color:white;
+    height: 5px;
+}
+.fa-solid{
+    font-size: 15px;
+}
+#cv_side_bar span{
+    font-size: 15px;
+}
+#cv_banner{
+    height: 210px;
+}
+#first_name{
+    color:gray;
+
+}
+#last_name{
+    color:#0D3049;
+}
+#first_name, #last_name{
+    font-weight: 900;
+}
+#job_title{
+    color: gray;
+    font-weight: 500;
+}
+.horizontal_rule_body{
+    width : 100%;
+    color:#0D3049;
+    height: 5px;
+}
